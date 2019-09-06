@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.list {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list-text {
+  padding: 20px 20px;
+}
+
+.black {
+  background-color: #DDDDDD;
+}
+
+.white {
+  background-color: white;
+}
+
+.panel {
+  padding-bottom: 50px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.box{
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  float: left;
+
+}
+.box:nth-child(3n){
+  margin-right: 0;
+}
+
+.box:nth-last-child(-n+3){
+  margin-bottom: 0;
+}
+
+.orange{
+  background-color: orange;
+}
+.yellow{
+  background-color: yellow;
+}
