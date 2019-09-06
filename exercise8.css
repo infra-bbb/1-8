@@ -4,7 +4,6 @@
   box-sizing: border-box;
   color: #6c6b6b;
 }
-
 .clearfix::after {
   content: "";
   display: block;
